@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+    height: 60px;
+    /* background-color: #0F1111; */
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    justify-content: space-around;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    margin-top: 5px ;
+    margin-left: 5px ;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+    background-image: url("amazon-logo.png");
+    background-size:cover;
+}
+
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+
+
+/*address box 2*/
+.nav-add{
+    margin: 5px;
+    height: 40px;
+    width: 80px;
+}
+.add-loco{
+    display: flex;
+}
+.add-world{
+    margin-left: 10px;
+    color: #cccccc;
+    font-size: smaller;
+}
+.add-curr{ 
+    font-size: large;
+    font-weight: 500;
+    color: white;
+}
+
+/*navigation search search*/
+.nav-search{
+    margin: 3px;
+    height: 40px;
+    width: 850px;
+    display: flex;
+    border-radius: 3px;
+}
+
+.search-items{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border:none;
+}
+.search-icon{
+    background-color:  #febd69;
+    width: 45px;
+    color: black;
+
+    font-size: 1.2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border:none;
+}
+.search-bar{
+    width: 100%;
+    font-size: 1.2rem;
+    border:none;
+}
+
+.language{
+    height: 50px;
+    width: 55px;
+    background-color: #0f1111 ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: larger;
+
+    border-radius:5px;
+    margin-left: 5px;
+}
+
+/*sign i noptions*/
+.signIn{
+    height: 50px;
+    width: 150px;
+    border-radius: 3px;
+}
+
+.up{
+    margin: 5px ;
+    height: 12px;
+}
+.down{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    height: 15px;
+}
+
+/*Cart  Icon*/
+.nav-cart{
+    height: 50px;
+    width: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cart-icon{
+   
+    font-size: 25px;
+}
+.cart-cart{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/*header panel*/
+.headPanel{
+    display: flex;
+    height: 40px;
+    background-color: #232F3E;
+    color: white;
+}
+.panel-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 70px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.ats{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+    padding: 8px;
+}
+.a:hover{
+    font-weight: 400;
+    text-decoration: dashed;
+}
+.panel-options{
+     height: 40px;
+     width: 40%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+
+.herosection{
+    background-image: url(headimage.jpg);
+    background-size: contain;
+    background-repeat:no-repeat ;
+    
+    height: 300px;
+    margin-left: 50px; 
+}
+
+.middle{
+     height: 800px;
+     width: 1500px;
+     background-color: rgba(227,230,230,0.5);
+}
+.middle h3{
+    font-weight:700;
+    padding-top: 8px;
+    padding-left: 15px;
+}
+.lineA , .lineB{
+      display: flex;
+      justify-content:space-evenly ;
+}
+.box{
+   width: 310px;
+   height: 370px;
+   margin: 10px;
+   background-color: white;
+   display: ;
+  
+}
+
+.img{
+    height: 275px;
+    width: 275px;
+    background-size:contain;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin: 25px;
+}
+
+.imgA{
+    background-image: url(games.webp);
+}
+.imgB{
+    background-image: url(clotes.jpg);
+}
+.imgC{
+    background-image: url(fashion.jpg);
+}
+.imgD{
+    background-image: url(gifts\'.jpg);
+}
+.imgE{
+    background-image: url(pets.jpg);
+}
+.imgF{
+    background-image: url(pc_build.webp);
+}
+
+.imgG{
+    background-image: url(station.jpg);
+}
+.imgH{
+    background-image: url(books.webp);
+}
+
+/*footer CSS*/
+
+.footA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 47px;
+    color: white;
+    background-color: #37475A;
+}
+
+.footB{
+    width: 100vw;
+    height: 325px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footBa{
+    list-style-type: none;
+    height: 200px;
+    width: 200px;
+    color: #DDDDDD;
+}
+
+.footBa p {
+   font-size: 1rem;
+    font-weight: 600;
+}
+
+.footBa a{
+   font-size: 0.85rem;
+}
